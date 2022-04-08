@@ -9,9 +9,7 @@ import { Component } from "@angular/core";
     selector: 'ola-angular', // nome que o componente vai ter para poder ser usado no template
     //template: '<p>Olá, {{framework}}</p>', // tudo que ira aparecer visualmente no componente
     templateUrl: './ola-angular.component.html', // caminho para um template externo
-    styleUrls: [
-        './ola-angular.component.css'
-    ]
+    styleUrls: ['./ola-angular.component.css']
 })
 export class OlaAngularComponent{
     framework = 'React'
